@@ -1,5 +1,5 @@
 # SaveProfileSystem
-Simple, small and easy to use save system to store variable data localy.
+Simple, small and easy to use save system to store variable data localy in C++.
 
 ## Why should you use this?
 You don't have to, it's just a small simple system to save variables in files locally. 
