@@ -34,3 +34,6 @@ void Example()
   ps.LoadAll("Default");
 }
 ```
+
+## Can i use this on my own projects?
+Of course you can, you are free to use or modify this code but i would find it cool if you give me credits.
