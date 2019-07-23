@@ -14,7 +14,7 @@ The reason for me to write this small class was because i was saving some variab
 
 ## How to use?
 Actually there is a [PlayZone.cpp](PlayZone.cpp) file where you can see the example but in case you don't want to check.
-```cplusplus
+```c
 // First you have to initialize the class default directory for profiles getting saved is "C:\\ProfileSystem\\"
 // You can change this while initializing the class or by setDirectory.
 ProfileSystem ps;
