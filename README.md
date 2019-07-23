@@ -14,20 +14,23 @@ The reason for me to write this small class was because i was saving some variab
 
 ## How to use?
 Actually there is a [PlayZone.cpp](PlayZone.cpp) file where you can see the example but in case you don't want to check.
-```c
-// First you have to initialize the class default directory for profiles getting saved is "C:\\ProfileSystem\\"
-// You can change this while initializing the class or by setDirectory.
-ProfileSystem ps;
+```cpp
+void Example()
+{
+  // First you have to initialize the class default directory for profiles getting saved is "C:\\ProfileSystem\\"
+  // You can change this while initializing the class or by setDirectory.
+  ProfileSystem ps;
 
-std::string mystring = "Hello world.";
+  std::string mystring = "Hello world.";
 
-// Register the string variable, first argument the variable itself second argument a local name for the variable.
-ps.reg_string(mystring, "mystring");
+  // Register the string variable, first argument the variable itself second argument a local name for the variable.
+  ps.reg_string(mystring, "mystring");
 
-// Save or Load the variable now.
-// SaveAll variables registered locally, the argument is the profile name that you want to use.
-ps.SaveAll("Default"); 
+  // Save or Load the variable now.
+  // SaveAll variables registered locally, the argument is the profile name that you want to use.
+  ps.SaveAll("Default"); 
 
-// Load variables from the local files.
-ps.LoadAll("Default");
+  // Load variables from the local files.
+  ps.LoadAll("Default");
+}
 ```
