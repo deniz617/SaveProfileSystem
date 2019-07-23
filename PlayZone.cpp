@@ -12,8 +12,7 @@ int nnummm = 602;
 
 int main()
 {
-	ProfileSystem ps;
-	ps.setDirectory("C:\\Profiles\\");
+	ProfileSystem ps("C:\\Profiles\\");
 
 	ps.reg_string(s1, "var1");
 	ps.reg_string(s2, "var2");
